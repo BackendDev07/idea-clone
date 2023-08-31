@@ -1,0 +1,133 @@
+.header {
+  &-top__logo {
+    display: none;
+  }
+
+  &-top {
+    padding: 10px 0;
+    background-color: $black-color;
+    &__coll {
+      display: flex;
+    }
+
+    &__link {
+      color: $white-color;
+      @include flex(center, unset, row, 8px);
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+      @include trn();
+
+      &:hover {
+        color: $red-color;
+      }
+    }
+  }
+
+  &-center {
+    padding: 24px 0;
+    &__col {
+      display: flex;
+    }
+
+    &__social {
+      padding: 0 16px;
+    }
+
+    &__link {
+      padding: 0 16px;
+      @include flex(center, unset, column, 4px);
+    }
+
+    &__social,
+    &__link {
+      &,
+      path,
+      stroke   {
+        @include trn();
+      }
+
+      &:hover {
+        path {
+          fill: $red-color;
+          stroke: $red-color;
+        }
+        color: $red-color;
+      }
+    }
+  }
+
+  &-row {
+    @include flex(center, space-between);
+  }
+  &-end{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    &-button button{
+      color: #FFF;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      padding: 13px 25px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background-color: #DD1470; 
+      border: none;
+    }
+    &-search{
+      display: flex;
+      align-items: center;
+      
+    }
+    &-search input{
+
+      border: 1px solid #F2F2F2;
+      background: #F2F2F2;
+      width: 900px;
+      height: 45px;
+      border-radius: 10px 0 0px 10px;
+      padding: 0 20px;
+    }
+    &-search input:focus{
+      border: 2px solid #DD1470;
+  
+    }
+    &-search button{
+      background: #F2F2F2;
+      border: none;
+      border-radius: 0 10px 10px 0;
+      border-left: solid 2px rgb(104, 104, 104);
+      padding: 10px 25px;
+   
+    }
+  
+    &-buttons button{
+  
+      background-color: inherit;
+      border: none;
+      display: flex;
+      align-items: center;
+      flex-direction: column; 
+    }
+    &-buttons button:hover{
+      
+      color: #DD1470;
+    }
+    &-buttons{
+      gap: 50px;
+     display: flex;
+    }
+  
+  }
+  
+  .header.input-active .header-end-search {
+    background-color: #000;
+}
+
+
+}
+

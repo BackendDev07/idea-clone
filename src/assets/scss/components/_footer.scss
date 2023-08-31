@@ -1,0 +1,96 @@
+.footer{
+         padding: 40px 0 ;
+         width: 100%;
+         height: auto;
+         background: #282F3C;
+        padding-bottom: 100px;
+
+
+         .footer-links{
+                  display: flex;
+                  gap: 190px;
+         }
+        
+         .linksssss{
+               display: flex;
+               gap: 190px;
+         }
+         .footer-footer{
+                  display: flex;
+         }
+         .footer-buttons{
+                  display: flex;
+                  flex-direction: column;
+                 
+         }
+         .footer-button-links button{
+                  padding: 5px;
+                  width: 40px;
+                  height: 40px;
+                  border: 1px solid #7A7D8C;
+                  background-color: inherit;
+                  border-radius: 50%;
+         }
+
+         .footer-button-links{
+                  margin-top: 24px;
+                  display: flex;
+                  gap: 12px;
+         }
+         .links h1{
+                  color: #FFF;
+                  font-size: 18px;
+                  font-weight: 600;
+                  margin-bottom: 18px;
+         }
+         .links p{
+                  margin-top: 14px;
+                  color: #7A7D8C;
+                  font-size: 14px;
+                  font-weight: 400;
+         }
+         .footer-button-link h1{
+                  color: #FFF;
+                  font-size: 18px;
+                  font-weight: 600;
+         }
+         .footer-button-link button{
+                  margin-top: 15px;
+                  padding: 5px 15px;
+                  color: #FFF;
+                  text-align: center;
+                  font-size: 16px;
+                  background-color: inherit;
+                  border-radius: 6px;
+                  border: 1px solid #FFF;
+
+         }
+         .footer-logo,footer-button-link, h1,p,button,h2,h3{
+            cursor: pointer;
+         }
+         .links p:hover{
+            color: #FFF;
+         }
+         .footer-button-link h2{
+                  
+                  margin-top: 23px;
+                  color: #FFF;
+                  font-size: 18px;
+                  font-weight: 600;
+         }
+         .footer-button-link p{
+                
+                  margin-top: 8px;
+                  color: #7A7D8C;
+                  font-size: 14px;
+                  font-weight: 400;
+         }
+         .footer-button-link h3{
+                  margin-top: 15px;
+                  color: #FFF;
+                  font-size: 18px;
+                  font-weight: 600;
+
+         }
+       
+}
